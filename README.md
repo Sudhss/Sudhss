@@ -69,7 +69,7 @@
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="59" height="35" alt="Discord" />
   </a>
   <a href="https://sudhanshu-shukl.github.io/portfolio/" target="_blank">
-    <img src="https://cdn.simpleicons.org/internetexplorer/blue" width="59" height="35" alt="Portfolio" />
+    <img src="assests\icon-portfolio.png" width="55" height="39" alt="Portfolio" />
   </a>
 </div>
 
