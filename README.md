@@ -5,14 +5,14 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sudhanshu-Shukl&locale=en&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Sudhanshu-Shukl&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=GitHub Stats" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Sudhanshu-Shukl&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats" height="150" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com?user=Sudhanshu-Shukl&theme=github-dark&hide_border=true&border_radius=5" height="150" alt="GitHub Streak" />
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudhanshu-Shukl&custom_title=Contribution Graph&theme=github-dark&radius=5&hide_border=true&area=true" height="275" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudhanshu-Shukl&custom_title=Contribution%20Graph&theme=github-dark&radius=5&hide_border=true&area=true" height="275" alt="Activity Graph" />
 </div>
 
 ###
