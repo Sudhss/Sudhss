@@ -76,7 +76,7 @@
 ###
 
 <!-- Snake animation stays as is -->
-<img src="https://raw.githubusercontent.com/devSudhanshu/devSudhanshu/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Sudhanshu-shukl/Sudhanshu-shukl/output/snake.svg" alt="Snake animation" />
 
 ###
 
