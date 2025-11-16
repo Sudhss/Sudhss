@@ -4,15 +4,15 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sudhanshu-Shukl&locale=en&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Sudhanshu-Shukl&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats" height="150" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com/?user=Sudhanshu-Shukl&theme=github-dark&hide_border=true&border_radius=5" height="150" alt="GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sudhss&locale=en&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Sudhss&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats" height="150" alt="GitHub Stats" />
+  <img src="https://streak-stats.demolab.com/?user=Sudhss&theme=github-dark&hide_border=true&border_radius=5" height="150" alt="GitHub Streak" />
 </div>
 
 ###
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudhanshu-Shukl&custom_title=Contribution%20Graph&theme=github-dark&radius=5&hide_border=true&area=true" height="275" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudhss&custom_title=Contribution%20Graph&theme=github-dark&radius=5&hide_border=true&area=true" height="275" alt="Activity Graph" />
 </div>
 
 ###
@@ -68,7 +68,7 @@
   <a href="https://discord.com/users/1193626102963376313" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="59" height="35" alt="Discord" />
   </a>
-  <a href="https://sudhanshu-shukl.github.io/portfolio/" target="_blank">
+  <a href="https://Sudhss.github.io/portfolio/" target="_blank">
     <img src="assests\icon-portfolio.png" width="55" height="39" alt="Portfolio" />
   </a>
 </div>
@@ -76,7 +76,7 @@
 ###
 
 <!-- Snake animation stays as is -->
-<img src="https://raw.githubusercontent.com/Sudhanshu-shukl/Sudhanshu-shukl/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/Sudhss/Sudhss/output/snake.svg" alt="Snake animation" />
 
 ###
 
