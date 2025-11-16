@@ -5,7 +5,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sudhss&locale=en&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Sudhss&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats" height="150" alt="GitHub Stats" />
+  <img src="[https://github-readme-stats.vercel.app/api?username=sudhss&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats](https://github-readme-stats.vercel.app/api?username=sudhss&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats)" height="150" alt="GitHub Stats" />
   <img src="https://streak-stats.demolab.com/?user=Sudhss&theme=github-dark&hide_border=true&border_radius=5" height="150" alt="GitHub Streak" />
 </div>
 
