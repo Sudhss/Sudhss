@@ -12,7 +12,7 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudhss&custom_title=Contribution%20Graph&theme=github-dark&radius=5&hide_border=true&area=true" height="275" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=sudhss&custom_title=Contribution%20Graph&theme=github-dark&radius=5&hide_border=true&area=true" height="275" alt="Activity Graph" />
 </div>
 
 ###
