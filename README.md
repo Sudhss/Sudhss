@@ -6,7 +6,6 @@
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sudhss&locale=en&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
   <img src="https://github-readme-stats.vercel.app/api?username=Sudhss&show_icons=true" />
-  <img src="https://streak-stats.demolab.com/?user=Sudhss&theme=github-dark&hide_border=true&border_radius=5" height="150" alt="GitHub Streak" />
 </div>
 
 ###
