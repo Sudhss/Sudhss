@@ -40,6 +40,9 @@
 <br/>
 
 <div align="center">
+  <a href="https://Sudhss.github.io/portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-45F7A3?style=for-the-badge&logo=ko-fi&logoColor=black" />
+  </a>
   <a href="https://www.linkedin.com/in/sudhs-shukla/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
