@@ -1,12 +1,8 @@
 <h1 align="center">Sudhanshu Shukla</h1>
 <p align="center">Systems and Backend Engineer</p>
-
-<a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Sudh's github stats" />
-</a> 
 <a href="https://github.com/anuraghazra/github-readme-stats">
     <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&theme=buefy&hide_border=true" />
-</a> |
+</a> 
 
 <h3 align="center">Tech Stack</h3>
 
