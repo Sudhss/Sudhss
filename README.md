@@ -8,13 +8,6 @@
   <img src="https://github-readme-stats.vercel.app/api?username=Sudhss&show_icons=true" />
 </div>
 
-###
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudhss&custom_title=Contribution%20Graph&theme=github-dark&radius=5&hide_border=true&area=true" height="275" alt="Activity Graph" />
-</div>
-
-###
 
 <h3 align="center">Tech Stack</h3>
 
