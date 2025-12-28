@@ -5,17 +5,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Sudhss&locale=en&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true" height="150" alt="Top Languages" />
-  <picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Sudhss&show_icons=true&theme=dark"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Sudhss&show_icons=true"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
   <img src="https://github-readme-stats.vercel.app/api?username=Sudhss&show_icons=true" />
-</picture>
   <img src="https://streak-stats.demolab.com/?user=Sudhss&theme=github-dark&hide_border=true&border_radius=5" height="150" alt="GitHub Streak" />
 </div>
 
