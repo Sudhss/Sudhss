@@ -23,7 +23,7 @@
 
 ---
 
-### 🛠️ Tech Arsenal
+### Tech Arsenal
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=cpp,c,py,java,js,nodejs,express,react,mongodb,mysql,git,docker,githubactions,linux,bash" />
@@ -31,7 +31,7 @@
 
 ---
 
-### 📈 Activity
+### Activity
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sudhss&theme=tokyo-night&hide_border=true&area=true" width="100%" />
@@ -56,7 +56,7 @@
 
 ---
 
-### 🐍 The Grind
+### The Grind
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Sudhss/Sudhss/output/snake.svg" alt="Snake animation" />
