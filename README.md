@@ -2,10 +2,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=45F7A3&center=true&vCenter=true&width=435&lines=Sudhanshu+Shukla;Systems+and+Backend;Low+Level+Wizardry;Building+the+Future" alt="Typing SVG" />
 </h1>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=00ffaa&height=200&section=header&text=Welcome%20to%20the%20Void&fontSize=50&animation=fadeIn&fontAlignY=38" />
-</p>
-
 <br/>
 
 <div align="center">
