@@ -4,7 +4,7 @@
 
 <br/>
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sudhss&theme=tokyonight" alt="Streak Stats" />
+   <img src="https://github-readme-stats.vercel.app/api?username=sudhss&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=GitHub%20Stats" height="150" alt="GitHub Stats" />
 </div>
 
 ---
