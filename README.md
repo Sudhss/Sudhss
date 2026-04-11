@@ -1,7 +1,3 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=45F7A3&center=true&vCenter=true&width=435&lines=Sudhanshu+Shukla;Systems+and+Backend;Low+Level+Wizardry;Building+the+Future;System+Design" alt="Typing SVG" />
-</h1>
-
 <br/>
 
 <img width="1381" height="873" alt="image" src="https://github.com/user-attachments/assets/7bec6d5d-d096-4a86-b475-c41a3f1fa5e2" />
