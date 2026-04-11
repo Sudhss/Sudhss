@@ -1,11 +1,11 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=45F7A3&center=true&vCenter=true&width=435&lines=Sudhanshu+Shukla;Systems+and+Backend;Low+Level+Wizardry;Building+the+Future" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=45F7A3&center=true&vCenter=true&width=435&lines=Sudhanshu+Shukla;Systems+and+Backend;Low+Level+Wizardry;Building+the+Future;System+Design" alt="Typing SVG" />
 </h1>
 
 <br/>
-<div align="center">
-   <img src="https://raw.githubusercontent.com/Sudhss/github-stats-remotion/main/out/readme.gif">
-</div>
+
+<img width="1367" height="807" alt="image" src="https://github.com/user-attachments/assets/99e04f60-cef7-41aa-b084-55230160e87a" />
+<img width="1325" height="326" alt="image" src="https://github.com/user-attachments/assets/376bec9d-3a75-411f-8d06-246fb5571766" />
 
 ---
 
