@@ -20,7 +20,7 @@
 <br/>
 
 <div align="center">
-  <a href="[https://Sudhss.github.io/portfolio/](https://portfolio-tau-weld-jl3dhwutqh.vercel.app/)" target="_blank">
+  <a href="https://Sudhss.github.io/portfolio/](https://portfolio-tau-weld-jl3dhwutqh.vercel.app/)" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-45F7A3?style=for-the-badge&logo=ko-fi&logoColor=black" />
   </a>
   <a href="https://www.linkedin.com/in/sudhss/" target="_blank">
