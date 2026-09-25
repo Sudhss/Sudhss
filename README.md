@@ -1,5 +1,4 @@
 <img width="2172" height="694" alt="Github Banner" src="https://github.com/user-attachments/assets/1cdbf3c9-5cd5-45cb-a033-7976af82b3de" /><br/>
-<img width="2172" height="694" alt="Github Banner" src="https://github.com/user-attachments/assets/bc94e066-6903-4d02-b517-cd98a956df75" />
 
 ---
 
