@@ -146,23 +146,26 @@ ${text(60, 280, "I build the things other people import: an editor, a database, 
   const lc = data.leetcode;
   const cc = data.codechef;
   const total = data.contributions?.total;
-  const chips = [
-    total != null && { dot: t.name === "dark" ? "#39d353" : "#1a7f37", value: total, label: (v) => `${v.toLocaleString("en-US")} Contributions`, sub: "Last 12 Months" },
-    cf && { dot: "#1f8acb", value: cf.rating, label: (v) => `CF ${v}`, sub: title(cf.rank) },
-    lc && { dot: "#ffa116", value: lc.rating, label: (v) => `LC ${v}`, sub: `${lc.badge || ""} · Top ${lc.topPercent}%` },
-    cc && { dot: "#e0b050", value: cc.rating, label: (v) => `CC ${v}`, sub: `${cc.stars}★ · Peak ${cc.maxRating}` },
+  // An open strip, no boxes: big number, coloured label, one detail line.
+  const dark = t.name === "dark";
+  const stats = [
+    total != null && { color: dark ? "#39d353" : "#1a7f37", value: total, fmt: (v) => v.toLocaleString("en-US"), label: "CONTRIBUTIONS", sub: "Last 12 Months" },
+    cf && { color: dark ? "#4ea8e6" : "#0b6db0", value: cf.rating, fmt: String, label: "CODEFORCES", sub: title(cf.rank) },
+    lc && { color: dark ? "#ffa116" : "#c77700", value: lc.rating, fmt: String, label: "LEETCODE", sub: `${lc.badge || ""} · Top ${lc.topPercent}%` },
+    cc && { color: dark ? "#e8b94f" : "#a86b00", value: cc.rating, fmt: String, label: "CODECHEF", sub: `${cc.stars}★ · Peak ${cc.maxRating}` },
   ].filter(Boolean);
+  const GAP = 22;
   let cx = 60;
-  chips.forEach((c, i) => {
-    const w = 26 + Math.max(c.label(c.value).length * 8.0, c.sub.length * 6.6);
+  stats.forEach((c, i) => {
+    const w = Math.max(c.fmt(c.value).length * 14.5, c.label.length * 7.4, c.sub.length * 6.6);
     const begin = 1.9 + i * 0.18;
+    if (i) b += `<line x1="${f(cx - GAP)}" y1="306" x2="${f(cx - GAP)}" y2="358" stroke="${t.border}" opacity="0">${fadeIn(begin)}</line>`;
     b += `<g opacity="0">${fadeIn(begin)}
-<rect x="${f(cx)}" y="302" width="${f(w)}" height="56" rx="8" fill="${t.panel2}" stroke="${t.border}"/>
-<circle cx="${f(cx + 15)}" cy="321" r="4.5" fill="${c.dot}"/>
-${text(cx + 15, 346, c.sub, { size: 11.5, fill: t.text2, font: MONO })}
+${text(cx, 340, c.label, { size: 10, fill: c.color, font: MONO, weight: 700, extra: 'letter-spacing="1.4"' })}
+${text(cx, 358, c.sub, { size: 11, fill: t.text3, font: MONO })}
 </g>`;
-    b += rollUp(cx + 26, 326, c.value, c.label, { size: 15, fill: t.text, weight: 800 }, begin, 1.3);
-    cx += w + 8;
+    b += rollUp(cx, 324, c.value, c.fmt, { size: 25, fill: t.text, weight: 800, extra: 'letter-spacing="-0.5"' }, begin, 1.3);
+    cx += w + GAP * 2 + 1;
   });
   b += `<g opacity="0">${fadeIn(2.6)}${text(60, 398, `Live · Rebuilt every 6 hours by GitHub Actions · Last run ${data.generatedAt.slice(0, 10)}`, { size: 11.5, fill: t.text3, font: MONO })}</g>`;
 
