@@ -1,0 +1,65 @@
+name: Profile
+
+# Rebuilds every image on the profile from live data and publishes them to
+# the `output` branch, which the README reads from.
+#
+#   scripts/fetch.mjs    Codeforces, LeetCode, CodeChef, GitHub (no tokens)
+#   scripts/svg/*.mjs    one generator per image, dark + light
+#   scripts/build.mjs    runs it all into dist/
+
+on:
+  schedule:
+    - cron: "23 */6 * * *" # 00:23, 06:23, 12:23, 18:23 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "profile.config.json"
+      - ".github/workflows/profile.yml"
+
+concurrency:
+  group: profile
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch live data and draw
+        run: node scripts/build.mjs
+
+      - name: Summary
+        run: |
+          {
+            echo "### Profile rebuilt"
+            echo ""
+            node -e '
+              const d = require("./dist/data.json");
+              const row = (k, v) => console.log(`| ${k} | ${v} |`);
+              console.log("| source | value |\n|---|---|");
+              d.codeforces && row("Codeforces", `${d.codeforces.rating} ${d.codeforces.rank}`);
+              d.leetcode && row("LeetCode", `${d.leetcode.rating} ${d.leetcode.badge} · ${d.leetcode.solved.all} solved`);
+              d.codechef && row("CodeChef", `${d.codechef.rating} · ${d.codechef.stars}★`);
+              d.contributions && row("Contributions", d.contributions.total);
+              row("Stale (kept last good value)", d.stale.join(", ") || "none");
+            '
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Rebuild profile images"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

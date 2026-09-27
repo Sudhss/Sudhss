@@ -1,0 +1,114 @@
+{
+  "name": "Sudhanshu Shukla",
+  "github": "Sudhss",
+  "tagline": "Systems & Backend Engineer · Competitive Programmer",
+  "motto": "Because if we won't... who will",
+  "handles": {
+    "codeforces": "OnCallGuy",
+    "leetcode": "Sudhss",
+    "codechef": "sudhsss"
+  },
+  "links": {
+    "portfolio": "https://portfolio-tau-weld-jl3dhwutqh.vercel.app/",
+    "linkedin": "https://www.linkedin.com/in/sudhss/",
+    "email": "mailto:shuklasudhanshu230405@gmail.com",
+    "codeforces": "https://codeforces.com/profile/OnCallGuy",
+    "leetcode": "https://leetcode.com/u/Sudhss/",
+    "codechef": "https://www.codechef.com/users/sudhsss"
+  },
+  "projects": [
+    {
+      "id": "valence",
+      "repo": "Sudhss/Valence",
+      "title": "Valence",
+      "line": "A code editor from nothing: own buffer, renderer, tokenizer, undo, and a built-in judge.",
+      "lang": "C++ · Qt 6",
+      "site": "https://valence-website.vercel.app"
+    },
+    {
+      "id": "railflow",
+      "repo": "Sudhss/RailFlow",
+      "title": "RailFlow",
+      "line": "Traffic control for 500 km of railway: live routing on congestion, reroutes around closures.",
+      "lang": "Python · React · Three.js",
+      "site": "https://rail-flow-website.vercel.app"
+    },
+    {
+      "id": "minisql",
+      "repo": "Sudhss/fromScratch---Mini-SQL-RDB-",
+      "title": "Mini SQL RDB",
+      "line": "A relational database with a hand-written SQL parser, B+Tree storage and a volcano executor.",
+      "lang": "C++ · Qt 6"
+    },
+    {
+      "id": "chromium",
+      "repo": "Sudhss/fromScratch---Mini-Chromium-Engine",
+      "title": "Mini Chromium",
+      "line": "A browser engine from scratch: HTML tokenizer, DOM, layout, paint. In progress.",
+      "lang": "C++23 · Qt 6"
+    },
+    {
+      "id": "axios",
+      "repo": "Sudhss/Axios-Sovereign",
+      "title": "Axios-Sovereign",
+      "line": "An autonomous SRE: detects failures, agents debate the fix, remediation runs with an audit trail.",
+      "lang": "Python"
+    },
+    {
+      "id": "educred",
+      "repo": "thechessguy2400-design/EducredChain",
+      "title": "EducredChain",
+      "line": "Tamper-proof academic credentials on Polygon, with IPFS storage and MetaMask sign-in.",
+      "lang": "TypeScript · Solidity"
+    }
+  ],
+  "stack": [
+    {
+      "layer": "Systems",
+      "items": [
+        "C++17/23",
+        "Qt 6",
+        "C",
+        "CMake"
+      ]
+    },
+    {
+      "layer": "Backend",
+      "items": [
+        "Python",
+        "FastAPI",
+        "Node.js",
+        "Express",
+        "WebSockets"
+      ]
+    },
+    {
+      "layer": "Frontend",
+      "items": [
+        "JavaScript",
+        "React",
+        "Three.js",
+        "WebGL",
+        "Vite"
+      ]
+    },
+    {
+      "layer": "Data",
+      "items": [
+        "MongoDB",
+        "MySQL",
+        "Hand-Rolled B+Trees"
+      ]
+    },
+    {
+      "layer": "Ops",
+      "items": [
+        "Docker",
+        "GitHub Actions",
+        "Linux",
+        "Bash",
+        "Git"
+      ]
+    }
+  ]
+}
