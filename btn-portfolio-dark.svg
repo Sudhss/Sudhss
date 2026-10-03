@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="133" height="44" viewBox="0 0 133 44" role="img" aria-label="Portfolio">
+<title>Portfolio</title>
+<rect x="0.5" y="0.5" width="132" height="43" rx="12" fill="#111821" stroke="#26313d"/>
+<circle cx="22" cy="22" r="8" fill="none" stroke="#d49a3a" stroke-width="1.8"/><ellipse cx="22" cy="22" rx="3.5" ry="8" fill="none" stroke="#d49a3a" stroke-width="1.5"/><line x1="14" y1="22" x2="30" y2="22" stroke="#d49a3a" stroke-width="1.5"/><text x="38" y="27" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace" font-size="14" font-weight="600" fill="#e6edf3" text-anchor="start" >Portfolio</text>
+</svg>
